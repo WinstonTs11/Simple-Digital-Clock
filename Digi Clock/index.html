@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock | Winston_Design_Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div class="time" id="time"></div>
+        <div class="date" id="date"></div>
+        <div class="days-left" id="daysLeft"></div>
+        <div class="historical-significance" id="historicalSignificance"></div>
+        <div class="controls">
+            <label for="timeFormat">Time Format: </label>
+            <select id="timeFormat">
+                <option value="24">24-Hour</option>
+                <option value="12">12-Hour</option>
+            </select>
+            <label for="holiday">Holiday: </label>
+            <select id="holiday">
+                <option value="none">None</option>
+                <option value="world-cancer-day">World Cancer Day</option>
+                <option value="international-womens-day">International Women's Day</option>
+                <option value="world-environment-day">World Environment Day</option>
+                <option value="earth-day">Earth Day</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+    
+</body>
+</html>
